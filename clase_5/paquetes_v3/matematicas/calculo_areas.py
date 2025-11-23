@@ -1,0 +1,14 @@
+__all__ = ["calcular_area_circulo", "calcular_area_rectangulo"]
+
+
+from math import pi
+
+
+def calcular_area_circulo(radio: float) -> float:
+    """Calcula el área de un círculo dado su radio."""
+    return pi * radio**2
+
+
+def calcular_area_rectangulo(base: float, altura: float) -> float:
+    """Calcula el área de un rectángulo dado su base y altura."""
+    return base * altura
